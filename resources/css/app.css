@@ -1,0 +1,18 @@
+
+@import "tailwindcss";
+
+/* CSS MODULES */
+@import "./sidebar.css";
+@import './overview.css';
+@import "./my-work.css";
+
+/* TAILWIND SOURCES */
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+/* THEME */
+@theme {
+    --font-sans: 'Montserrat', sans-serif;
+}
